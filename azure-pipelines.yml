@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: default-linux
+  agent: default-linux
 
 steps:
 # - task: NodeTool@0
